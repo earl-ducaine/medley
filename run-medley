@@ -182,6 +182,9 @@ echo "greet: $LDEINIT"
 
 export INMEDLEY=1
 
+# Should look something like:
+# lde -g 1440x900 -sc 1440x900 -m 256  /home/rett/dev/medley/medley/loadups/full.sysout
+
 "$prog" $geometry $screensize $mem -t "Medley Interlisp" $passthrough_args "$LDESRCESYSOUT"
 
 
